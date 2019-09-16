@@ -9,3 +9,7 @@ function takeANumber(currentLine, name){
 takeANumber(katzDeliLine, "Ada")
 takeANumber(katzDeliLine, "Grace")
 takeANumber(katzDeliLine, "Kent")
+
+function nowServing(currentLine){
+  console.log(currentLine[0]);
+}
