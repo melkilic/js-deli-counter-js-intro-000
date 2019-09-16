@@ -35,12 +35,12 @@ takeANumber(katzDeliLine, "Kent")
 // return “Currently serving ” + personOne[0] + “.”;
 // }
 // }
-function nowServing(line) {
-  if (line.length === 0) {
+function nowServing(a) {
+  if (a.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
-    var name = line[0];
-    line.splice(0, 1);
+    var name = a[0];
+    a.splice(0, 1);
     return "Currently serving " + name + ".";
   }
 }
