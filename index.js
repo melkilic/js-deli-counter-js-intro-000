@@ -45,13 +45,23 @@ function nowServing(line) {
   }
 }
 
-function currentLine(y){
-  var y=[]
-  if(y.length===0){
-  return "The line is empty."
-}else{
-  return(`The line is currently:` + y);
-}
-
+// function currentLine(y){
+//   var y=[]
+//   if(y.length===0){
+//   return "The line is empty."
+// }else{
+//   return(`The line is currently:` + y);
+// }
+function currentLine(NewLine) {
+    var line = []
+    if (NewLine.length === 0) {
+      return "The line is currently empty."
+    } else {
+      for(var i = 0; i < NewLine.length; i++) {
+        line += (i + 1) + ". " + NewLine[i] + ", "
+      }
+      line = line.slice(0, line.length-2)
+      return "The line is currently: " + line
+    }
 }
 }
