@@ -27,13 +27,13 @@ takeANumber(katzDeliLine, "Kent")
 //     return "Currently serving " + line.shift();
 //   }
 function nowServing(currentLine){
-var outputString;
+  console.log(currentLine[0]);
+   currentLine.slice(1);
 if (currentLine.length === 0){
-outputString = “There is nobody waiting to be served!”
+Return “There is nobody waiting to be served!”
 }
 else{
-outputString = “Currently serving ” + currentLine[0] + “.”;
+return “Currently serving ” + currentLine[0] + “.”;
 currentLine.shift();
 }
-return outputString;
 }
