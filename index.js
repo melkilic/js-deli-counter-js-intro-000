@@ -32,6 +32,15 @@ return “There is nobody waiting to be served!”
 }else{
   var personOne= newLine[0];
   newLine.splice(0,1);
-return “Currently serving ” + newLine[0] + “.”;
+return “Currently serving ” + personOne[0] + “.”;
 }
 }
+// function nowServing(x) {
+//   if (x.length === 0) {
+//     return "There is nobody waiting to be served!"
+//   } else {
+//     var name = x[0];
+//     x.splice(0, 1);
+//     return "Currently serving " + name + ".";
+//   }
+// }
