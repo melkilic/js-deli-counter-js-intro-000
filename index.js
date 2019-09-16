@@ -12,4 +12,5 @@ takeANumber(katzDeliLine, "Kent")
 
 function nowServing(currentLine){
   console.log(currentLine[0]);
+   currentLine.slice(1);
 }
