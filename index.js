@@ -1,4 +1,4 @@
-
+var katzDeliLine = [];
 function takeANumber(currentLine, name){
   currentLine.push(name);
 
@@ -26,14 +26,13 @@ takeANumber(katzDeliLine, "Kent")
 //     //console.log("Currently serving " + line.shift());
 //     return "Currently serving " + line.shift();
 //   }
-function nowServing(currentLine){
-  console.log(currentLine[0]);
-   currentLine.slice(1);
-if (currentLine.length === 0){
-Return “There is nobody waiting to be served!”
-}
-else{
-return “Currently serving ” + currentLine[0] + “.”;
-currentLine.shift();
+function nowServing(newLine){
+  if (newLine.length === 0){
+return “There is nobody waiting to be served!”
+}else{
+  var personOne= newLine[0];
+  newLine.splice(0,1);
+return “Currently serving ” + newLine[0] + “.”;
+newLine.shift();
 }
 }
