@@ -13,7 +13,7 @@ takeANumber(katzDeliLine, "Kent")
 function nowServing(currentLine){
   console.log(currentLine[0]);
    currentLine.slice(1);
-}if(currentLine=[]){
+}if(!currentLine.length){
   return "There is nobody waiting to be served!";
 
 }
