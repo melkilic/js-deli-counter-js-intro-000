@@ -18,11 +18,22 @@ takeANumber(katzDeliLine, "Kent")
 //   return "There is nobody waiting to be served!";
 //
 // }
-function nowServing(line) {
-  if(!line.length) {
-    console.log("There is nobody waiting to be served!")
-    return "There is nobody waiting to be served!"
-  } else {
-    //console.log("Currently serving " + line.shift());
-    return "Currently serving " + line.shift();
-  }
+// function nowServing(line) {
+//   if(!line.length) {
+//     console.log("There is nobody waiting to be served!")
+//     return "There is nobody waiting to be served!"
+//   } else {
+//     //console.log("Currently serving " + line.shift());
+//     return "Currently serving " + line.shift();
+//   }
+function nowServing(currentLine){
+var outputString;
+if (currentLine.length === 0){
+outputString = “There is nobody waiting to be served!”
+}
+else{
+outputString = “Currently serving ” + currentLine[0] + “.”;
+currentLine.shift();
+}
+return outputString;
+}
