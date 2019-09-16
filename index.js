@@ -1,5 +1,5 @@
-var currentLine=[];
-function takeANumber(1,Ada){
-currentLine.push("${name}");
-return("Welcome,${name}. You are number ${currentLine.length}in line.");
+var katzDeliLine=[];
+function takeANumber(katzDeliLine,name){
+katzDeliLine.push("${name}");
+return("Welcome,${name}. You are number ${katzDeliLine.length}in line.");
 }
