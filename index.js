@@ -2,8 +2,9 @@
 function takeANumber(katzDeliLine,name){
 katzDeliLine.push(name);
 katzDeliLine.push(katzDeliLine.length)
-return("Welcome," +name+ "". You are number"+ ${katzDeliLine.length}+"in line."");
-}
+console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
+return "Welcome, " + name + ". You are number " + line.length + " in line."
+ }
 takeANumber(katzDeli,"Ada")
 takeANumber(katzDeli,"Grace")
 takeANumber(katzDeli,"Kent")
