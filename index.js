@@ -64,4 +64,3 @@ function currentLine(NewLine) {
       return "The line is currently: " + line
     }
 }
-}
