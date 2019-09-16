@@ -44,3 +44,14 @@ function nowServing(line) {
     return "Currently serving " + name + ".";
   }
 }
+
+function currentLine(y){
+  var y=[]
+  if(y.length===0){
+  return "The line is empty."
+}else{
+  return(`The line is currently:` + y);
+}
+  
+}
+}
