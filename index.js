@@ -6,6 +6,6 @@ function takeANumber(currentLine, name){
 
   return "Welcome, " + name + ". You are number " + currentLine.length + " in line."
 }
-takeANumber(katzDeli, "Ada")
-takeANumber(katzDeli, "Grace")
-takeANumber(katzDeli, "Kent")
+takeANumber(katzDeliLine, "Ada")
+takeANumber(katzDeliLine, "Grace")
+takeANumber(katzDeliLine, "Kent")
