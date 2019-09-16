@@ -21,13 +21,6 @@ function nowServing(a) {
   }
 }
 
-// function currentLine(y){
-//   var y=[]
-//   if(y.length===0){
-//   return "The line is empty."
-// }else{
-//   return(`The line is currently:` + y);
-// }
 function currentLine(y) {
     var line = []
     if (y.length === 0) {
