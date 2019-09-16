@@ -33,6 +33,5 @@ return “There is nobody waiting to be served!”
   var personOne= newLine[0];
   newLine.splice(0,1);
 return “Currently serving ” + newLine[0] + “.”;
-newLine.shift();
 }
 }
