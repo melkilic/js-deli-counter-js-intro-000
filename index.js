@@ -1,3 +1,5 @@
+var currentLine=[];
 function takeANumber(currentLine,newName){
-  console.log("Welcome,"+ newName+ "." " You are number 1 in line.")
+currentLine.push("${newName}");
+return("Welcome,${newName}. You are number ${currentLine.lenth}in line.");
 }
