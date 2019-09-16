@@ -15,5 +15,5 @@ function nowServing(currentLine){
    currentLine.slice(1);
 }if(current.length===0){
   console.log("There is nobody waiting to be served!");
-  
+
 }
