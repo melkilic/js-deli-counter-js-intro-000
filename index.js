@@ -1,5 +1,5 @@
 var currentLine=[];
-function takeANumber(currentLine,newName){
-currentLine.push("${newName}");
-return("Welcome,${newName}. You are number ${currentLine.length}in line.");
+function takeANumber(currentLine,name){
+currentLine.push("${name}");
+return("Welcome,${name}. You are number ${currentLine.length}in line.");
 }
