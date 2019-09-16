@@ -10,10 +10,10 @@ takeANumber(katzDeliLine, "Ada")
 takeANumber(katzDeliLine, "Grace")
 takeANumber(katzDeliLine, "Kent")
 
-function nowServing(currentLine){
-  console.log(currentLine[0]);
-   currentLine.slice(1);
-}if(!currentLine.length){
+function nowServing(line){
+  console.log(line[0]);
+   legal.slice(1);
+}if(!line.length){
  console.log("There is nobody waiting to be served!");
   return "There is nobody waiting to be served!";
 
